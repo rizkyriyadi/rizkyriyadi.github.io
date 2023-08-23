@@ -1,7 +1,6 @@
 // aa516a8ee270e8c45a076bed2efdf668
 
 `use strict`;
-
 const api_key = "aa516a8ee270e8c45a076bed2efdf668";
 
 // Fetch data from
@@ -15,8 +14,8 @@ const api_key = "aa516a8ee270e8c45a076bed2efdf668";
 
 export const fetchData = function(URL, callback) {
     fetch(`${URL}&appid=${api_key}`)
-    .then(res >= res.json())
-    .then(data >= callback(data));
+    .then(res => res.json())
+    .then(data => callback(data));
 }
 
 export const url = {
@@ -28,7 +27,7 @@ export const url = {
         return `https://api.openweathermap.org/data/2.5/forecast?${lat}&${lon}&units=metric`
     },
     // airPolution
-    forecast(lat, lon) {
+    airPollution(lat, lon) {
         return `http://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}`
     },
     //revers GEO
@@ -39,8 +38,11 @@ export const url = {
     /**
      * 
      * @param {string} query Search query (City) 
-     */
-    geo(lat, lon) {
+    //  */
+    // geo(query) {
+    //     return `http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=aa516a8ee270e8c45a076bed2efdf668`;
+    // }
+    geo(query) {
         return `http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5`
     }
     
