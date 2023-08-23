@@ -285,179 +285,10 @@ export const updateWeather = function (lat, lon) {
 
                     <div class="slider-container">
                         <!-- slider list  temp -->
-                        <ul class="slider-list" data-temp>
-                            <!-- slider item  -->
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/01n.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">25&deg;</p>
-                                </div>
-                            </li>
-                        </ul>
+                        <ul class="slider-list" data-temp></ul>
 
                         <!-- slider list wind  -->
-                        <ul class="slider-list" data-wind>
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-
-                            <li class="slider-item">
-
-                                <div class="card card-sm slider-card">
-
-                                    <p class="body-3">03 PM</p>
-                                    
-                                    <img src="./assets/images/weather_icons/direction.png" 
-                                    width="48" height="48" loading="lazy" class="weather-icon" alt="">
-                                    <p class="body-3">12 km/h</p>
-                                </div>
-                            </li>
-                        </ul>
+                        <ul class="slider-list" data-wind></ul>
                     </div>
             `;
 
@@ -473,6 +304,31 @@ export const updateWeather = function (lat, lon) {
                 const [{ icon, description}] = weather
                 const tempLi = document.createElement("li");
                 tempLi.classList.add("slider-item");
+
+                tempLi.innerHTML = `
+                    <div class="card card-sm slider-card">
+
+                        <p class="body-3">${module.getHours(dateTimeUnix, timezone)}</p>
+                            
+                        <img src="./assets/images/weather_icons/${icon}.png" 
+                                width="48" height="48" loading="lazy" class="weather-icon" title="${description}" alt="${description}">
+                        <p class="body-3">${parseInt(temp)}&deg;</p>
+                    </div>
+                `;
+                hourlySection.querySelector("[data-temp]").appendChild(tempLi);
+
+                const windLi = document.createElement("li");
+                windLi.classList.add("slider-item");
+
+                windLi.innerHTML = `
+                    <div class="card card-sm slider-card">
+                        <p class="body-3">${module.getHours(dateTimeUnix, timezone)}</p>
+                        <img src="./assets/images/weather_icons/direction.png" 
+                                    width="48" height="48" loading="lazy" class="weather-icon" style="transform: rotate(${windDirection - 180}deg)" alt="direction">
+                        <p class="body-3">${parseInt(module.mps_to_kmh(windSpeed))}</p>
+                    </div>
+                `;
+                hourlySection.querySelector("[data-wind]").appendChild(windLi);
             }
         })
 
